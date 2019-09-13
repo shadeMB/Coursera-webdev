@@ -7,6 +7,20 @@
 section {
     width: 33%;
     float: left;
+    position: relative;
+    background: grey;
+    border: 1px solid black;
+}
+
+h2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: .2em;
+}
+
+p {
+    margin: 2em 1em 1em;
 }
 
 /* Media Queries */
