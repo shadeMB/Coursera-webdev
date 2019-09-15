@@ -52,3 +52,45 @@ body {
 .navbar-brand p span {
     vertical-align: middle;
 }
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+/* Phone number */
+#phone a {
+    padding-bottom: 0;
+    text-align: right;
+}
+
+/* We Deliver */
+#phone div {
+    padding-right: 15px;
+    text-align: right;
+    color: #557c3e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
