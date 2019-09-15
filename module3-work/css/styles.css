@@ -23,8 +23,7 @@ body {
     padding-top: 25px;
 }
 
-/* Restaurant name */
-.navbar-brand h1 {
+.navbar-brand h1 { /* Restaurant name */
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Lora', serif;
@@ -40,16 +39,14 @@ body {
     text-decoration: none;
 }
 
-/* Kosher certification */
-.navbar-brand p {
+.navbar-brand p { /* Kosher certification */
     margin-top: 15px;
     font-size: .7em;
     text-transform: uppercase;
     color: #000;
 }
 
-/* Star-K */
-.navbar-brand p span {
+.navbar-brand p span { /* Star-K */
     vertical-align: middle;
 }
 
@@ -74,14 +71,12 @@ body {
     margin-top: 5px;
 }
 
-/* Phone number */
-#phone a {
+#phone a { /* Phone number */
     padding-bottom: 0;
     text-align: right;
 }
 
-/* We Deliver */
-#phone div {
+#phone div { /* We Deliver */
     padding-right: 15px;
     text-align: right;
     color: #557c3e;
@@ -93,4 +88,57 @@ body {
 
 .navbar-header button.navbar-toggle {
     clear: both;
+}
+/* End header */
+
+/* Large devices */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium size devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+        background: url("../images/restaurant-logo_medium.png") no-repeat;
+        width: 100px;
+        height:  100px;
+        margin: 5px 5px 5px 0;
+    }
+    /* End header*/
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Extra small devices */
+@media (max-width: 768px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p { /* Kosher cert */
+        margin-top: 12px;
+        font-size: .6em;
+    }
+    .navbar-brand p img { /* Star-K */
+        height: 20px;
+    }
+    .navbar-brand button.navbar-toggle {
+        float: right;
+    }
+    #collapsable-nav a { /* Collapsed nav menu glyph */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        margin-right: 5px;
+        font-size: 1em;
+    }
+    /* End header */
 }
