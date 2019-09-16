@@ -282,6 +282,17 @@ body {
     }
     /* End of home page */
 
+    /* Menu Categories page */
+    .col-xxs-12 {
+        position: relative;
+        float: left;
+        min-height: 1px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    /* End of Menu Categories page */
+
     /* Footer */
     .panel-footer section {
         margin-bottom: 30px;
