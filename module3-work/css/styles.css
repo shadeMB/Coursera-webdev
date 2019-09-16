@@ -129,6 +129,35 @@ body {
 }
 /* End home page */
 
+/* Menu Categories page */
+.category-tile {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3f0c1f;
+    margin: 0 auto 15px;
+}
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #ccc;
+}
+#menu-categories-title + div {
+    margin-bottom: 50px;
+}
+/* End of Menu Categories page */
+
 /* Footer */
 .panel-footer {
     margin-top: 30px;
