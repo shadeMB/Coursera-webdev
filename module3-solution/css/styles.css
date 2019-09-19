@@ -62,4 +62,14 @@ body {
     margin: 20px auto;
     border-color: #1e1823;
 }
+#github-link {
+    margin-bottom: 30px;
+}
+#github-link a {
+    text-decoration: none;
+    color: #f5dab6;
+}
+#github-link a:hover {
+    color: #a59279;
+}
 /* End of Main Page */
