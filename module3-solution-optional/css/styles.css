@@ -6,6 +6,7 @@
 body {
     background: #1e1823;
     color: #4b4737;
+    font-family: 'Martel', serif;
 }
 
 /* Header */
@@ -19,23 +20,22 @@ body {
 #header-navbar .navbar-brand {
     color: #000;
     font-size: 1.5em;
-    font-weight: bold;
 }
-#nav-list {
-    text-align: center;
+#nav-list a{
+    color: #000;
 }
 #nav-list a:hover {
-    background: #f1dcca;
+    background: #f5dab6;
 }
 .navbar-header button.navbar-toggle {
-    border-color: #43142d;
+    border-color: #1e1823;
 }
 .navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
-    background-color: #ff9e4e;
+    background-color: #f5dab6;
     text-decoration: none;
 }
 .navbar-header .navbar-toggle .icon-bar {
-    background-color: #43142d;
+    background-color: #1e1823;
 }
 /* End of Header */
 
@@ -45,14 +45,27 @@ body {
 }
 #main-header {
     margin-top: 0;
-    color: #d3cdba;
+    margin-bottom: 30px;
+    color: #f5dab6;
 }
 #menu-tiles {
     padding: 0 15px;
 }
 .menu-tile {
+    position: relative;
     padding: 15px;
     margin-bottom: 30px;
     background-color: #f5dab6;
+}
+.menu-tile>hr {
+    width: 80%;
+    margin: 20px auto;
+    border-color: #1e1823;
+}
+.menu-tile a {
+    float: right;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #1e1823;
 }
 /* End of Main Page */
