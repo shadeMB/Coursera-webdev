@@ -22,7 +22,6 @@ body {
     font-size: 1.5em;
 }
 #nav-list a{
-    text-align: center;
     color: #000;
 }
 #nav-list a:hover {
