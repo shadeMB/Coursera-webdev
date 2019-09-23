@@ -25,7 +25,7 @@
                 function() {
                     handleResponse(request, responseHandler, isJsonResponse);
                 };
-            request.open("GET", requestUrl, true);
+            request.open("GET", requestUrl, true); // if we set this to false the request will be a synchronous one; thus the browser will wait (freeze) for a response from the server before proceeding
             request.send(null); // for POST only
         };
 
@@ -43,7 +43,7 @@
                 responseHandler(JSON.parse(request.responseText));
             }
             else {
-                responseHandler(request);
+                responseHandler(request.responseText);
             }
         }
     }
